@@ -15,9 +15,14 @@ dotnet new -i "OliverCoding.GatsbyTemplate.CSharp"
 
 ## Run
 
+Powershell Window #1
+
 ```powershell
+dotnet new gatsby
 dotnet run
 ```
+
+Powershell Window #2
 
 ```powershell
 cd ClientApp
