@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dotnet_gatsby
+namespace OliverCoding.GatsbyTemplate
 {
     public class Startup
     {

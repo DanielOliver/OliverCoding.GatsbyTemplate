@@ -1,8 +1,18 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Daniel Oliver",
-    "classifications": [ "Web", "MVC", "SPA" ],
+    "classifications": [
+        "Web",
+        "MVC",
+        "SPA"
+    ],
     "identity": "OliverCoding.GatsbyTemplate.CSharp",
-    "name": "GatsbyJS SPA Template",
-    "shortName": "gatsby"
+    "groupIdentity": "OliverCoding.GatsbyTemplate",
+    "name": "ASP.NET Core with GatsbyJS",
+    "shortName": "gatsby",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "OliverCoding.GatsbyTemplate"
 }
