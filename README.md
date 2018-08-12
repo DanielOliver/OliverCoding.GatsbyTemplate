@@ -2,6 +2,8 @@
 
 This project is a .NET Core Template that serves GatsbyJS v2 as a SPA.
 
+![NuGet](https://img.shields.io/nuget/v/OliverCoding.GatsbyTemplate.CSharp.svg)  ![NuGet](https://img.shields.io/nuget/dt/OliverCoding.GatsbyTemplate.CSharp.svg)
+
 ## Requires (or at least confirmed working with)
 
 * .NET Core 2.1.302
