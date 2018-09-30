@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.1.0",
   "dependencies": {
-    "gatsby": "next",
-    "gatsby-plugin-react-helmet": "next",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0"
+    "gatsby": "2.0.12",
+    "gatsby-plugin-react-helmet": "3.0.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-helmet": "5.2.0"
   },
   "scripts": {
     "build": "gatsby build",
