@@ -6,8 +6,8 @@ This project is a .NET Core Template that serves GatsbyJS v2 as a SPA.
 
 ## Requires (or at least confirmed working with)
 
-* .NET Core 2.1.302
-* Node 10.6.0
+* .NET Core 2.1.504
+* Node 10.11.0
 
 ## Install
 
