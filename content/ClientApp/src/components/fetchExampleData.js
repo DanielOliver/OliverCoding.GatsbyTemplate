@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import fetch from 'isomorphic-fetch';
 
 export class FetchExampleData extends Component {
   displayName = FetchExampleData.name
@@ -6,8 +7,12 @@ export class FetchExampleData extends Component {
   constructor(props) {
     super(props);
     this.state = { upcomingWeek: [], loading: true };
+  }
 
-    fetch('api/Example/UpcomingWeek')
+  componentDidMount() {
+    const url = new URL("/api/example/UpcomingWeek", window.location.origin);
+
+    fetch(url.toString())
       .then(response => response.json())
       .then(data => {
         this.setState({ upcomingWeek: data, loading: false });

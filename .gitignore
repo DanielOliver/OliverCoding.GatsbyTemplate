@@ -1,3 +1,4 @@
 
 # NuGet Packages
 *.nupkg
+out/
